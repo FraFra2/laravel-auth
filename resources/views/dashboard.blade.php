@@ -10,6 +10,13 @@
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900">
                     {{ __("You're logged in!") }}
+                    <div class = "flex items-center justify-center">
+                        <div>
+                            <h2 class = "text-5xl underline text-slate-800 transition-all hover:text-slate-500">
+                                <a href="{{ route('projects.index') }}">I tuoi Progetti</a>
+                            </h2>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
