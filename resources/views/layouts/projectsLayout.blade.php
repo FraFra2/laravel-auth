@@ -28,7 +28,7 @@
         </nav>
     </header>
     <main>
-        <div class="container">
+        <div class="container mx-auto px-4">
             @yield('main_content')
         </div>
     </main>
